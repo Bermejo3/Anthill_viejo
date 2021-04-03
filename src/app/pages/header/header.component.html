@@ -1,0 +1,14 @@
+<div class="header">
+    <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand"><i class="fas fa-bars" (click)=ocultar()></i></a>
+          <div class="reloj">
+            <h6>{{ getDay() }}</h6>
+            <h4>{{ hour }} : {{minute}} : {{seconds}}</h4>
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+</div>
